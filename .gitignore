@@ -1,7 +1,7 @@
 /.qsys_edit
 /db
 /incremental_db
-/outputfiles
+/output_files
 /simulation
 *.vwf
 *.bak

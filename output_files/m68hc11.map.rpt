@@ -1,5 +1,5 @@
 Analysis & Synthesis report for m68hc11
-Thu Nov 30 16:32:43 2023
+Fri Dec 01 16:16:17 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -55,13 +55,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 30 16:32:43 2023       ;
+; Analysis & Synthesis Status        ; Successful - Fri Dec 01 16:16:17 2023       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; m68hc11                                     ;
 ; Top-level Entity Name              ; m68hc11                                     ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 304                                         ;
-;     Total combinational functions  ; 288                                         ;
+; Total logic elements               ; 308                                         ;
+;     Total combinational functions  ; 292                                         ;
 ;     Dedicated logic registers      ; 120                                         ;
 ; Total registers                    ; 120                                         ;
 ; Total pins                         ; 130                                         ;
@@ -171,8 +171,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-4         ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -234,16 +233,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 304       ;
+; Estimated Total logic elements              ; 308       ;
 ;                                             ;           ;
-; Total combinational functions               ; 288       ;
+; Total combinational functions               ; 292       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 160       ;
-;     -- 3 input functions                    ; 81        ;
-;     -- <=2 input functions                  ; 47        ;
+;     -- 4 input functions                    ; 162       ;
+;     -- 3 input functions                    ; 80        ;
+;     -- <=2 input functions                  ; 50        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 254       ;
+;     -- normal mode                          ; 258       ;
 ;     -- arithmetic mode                      ; 34        ;
 ;                                             ;           ;
 ; Total registers                             ; 120       ;
@@ -257,7 +256,7 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; CLK~input ;
 ; Maximum fan-out                             ; 118       ;
-; Total fan-out                               ; 1689      ;
+; Total fan-out                               ; 1700      ;
 ; Average fan-out                             ; 2.50      ;
 +---------------------------------------------+-----------+
 
@@ -267,7 +266,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                             ; Entity Name          ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------+----------------------+--------------+
-; |m68hc11                                  ; 288 (0)             ; 120 (0)                   ; 2048        ; 0            ; 0       ; 0         ; 130  ; 0            ; |m68hc11                                                                        ; m68hc11              ; work         ;
+; |m68hc11                                  ; 292 (0)             ; 120 (0)                   ; 2048        ; 0            ; 0       ; 0         ; 130  ; 0            ; |m68hc11                                                                        ; m68hc11              ; work         ;
 ;    |Flags:inst5|                          ; 8 (0)               ; 2 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|Flags:inst5                                                            ; Flags                ; work         ;
 ;       |mux3:inst10|                       ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|Flags:inst5|mux3:inst10                                                ; mux3                 ; work         ;
 ;       |registro:inst2|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|Flags:inst5|registro:inst2                                             ; registro             ; work         ;
@@ -282,14 +281,14 @@ refer to the applicable agreement for further details.
 ;          |altsyncram_8t41:auto_generated| ; 0 (0)               ; 0 (0)                     ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|ram:inst6|altsyncram:mem_rtl_0|altsyncram_8t41:auto_generated          ; altsyncram_8t41      ; work         ;
 ;    |rdir:inst16|                          ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|rdir:inst16                                                            ; rdir                 ; work         ;
 ;    |registro_instruccion:inst8|           ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|registro_instruccion:inst8                                             ; registro_instruccion ; work         ;
-;    |secuenciador:inst14|                  ; 105 (0)             ; 35 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14                                                    ; secuenciador         ; work         ;
+;    |secuenciador:inst14|                  ; 109 (0)             ; 35 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14                                                    ; secuenciador         ; work         ;
 ;       |busmux:inst5|                      ; 16 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14|busmux:inst5                                       ; busmux               ; work         ;
 ;          |lpm_mux:$00000|                 ; 16 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14|busmux:inst5|lpm_mux:$00000                        ; lpm_mux              ; work         ;
 ;             |mux_psc:auto_generated|      ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14|busmux:inst5|lpm_mux:$00000|mux_psc:auto_generated ; mux_psc              ; work         ;
 ;       |logica_seleccion:inst3|            ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14|logica_seleccion:inst3                             ; logica_seleccion     ; work         ;
-;       |memory:inst9|                      ; 68 (68)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14|memory:inst9                                       ; memory               ; work         ;
+;       |memory:inst9|                      ; 70 (70)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14|memory:inst9                                       ; memory               ; work         ;
 ;       |registro_MicroInst:inst4|          ; 12 (12)             ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14|registro_MicroInst:inst4                           ; registro_MicroInst   ; work         ;
-;       |registro_sec:inst13|               ; 5 (5)               ; 23 (23)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14|registro_sec:inst13                                ; registro_sec         ; work         ;
+;       |registro_sec:inst13|               ; 7 (7)               ; 23 (23)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|secuenciador:inst14|registro_sec:inst13                                ; registro_sec         ; work         ;
 ;    |upa:inst1|                            ; 82 (82)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |m68hc11|upa:inst1                                                              ; upa                  ; work         ;
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -539,18 +538,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |m68hc11|secuenciador:inst14|registro_sec:inst13|instruccion[1] ;
-; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |m68hc11|secuenciador:inst14|registro_sec:inst13|B4             ;
-; 10:1               ; 2 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|secuenciador:inst14|registro_sec:inst13|EB[0]          ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |m68hc11|secuenciador:inst14|registro_sec:inst13|prueba[0]      ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |m68hc11|secuenciador:inst14|registro_sec:inst13|B2             ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|secuenciador:inst14|registro_sec:inst13|EA[1]          ;
 ; 20:1               ; 2 bits    ; 26 LEs        ; 26 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|secuenciador:inst14|registro_sec:inst13|instruccion[0] ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |m68hc11|Flags:inst5|registro:inst2|valor_interno               ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |m68hc11|Flags:inst5|registro:inst3|valor_interno               ;
 ; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|acumulador:ACCA|data_out[7]                            ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|acumulador:ACCB|data_out[4]                            ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|contador:AUX|data_out[7]                               ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|contador:AUX|data_out[14]                              ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|contador:PC|data_out[9]                                ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|contador:PC|data_out[7]                                ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |m68hc11|secuenciador:inst14|registro_sec:inst13|nWA            ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|acumulador:ACCB|data_out[0]                            ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|contador:AUX|data_out[6]                               ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|contador:AUX|data_out[9]                               ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|contador:PC|data_out[13]                               ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |m68hc11|contador:PC|data_out[1]                                ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |m68hc11|secuenciador:inst14|registro_sec:inst13|nDUPA          ;
 ; 11:1               ; 2 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |m68hc11|secuenciador:inst14|memory:inst9|data[6]               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
 
@@ -699,20 +698,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA CLR           ; 32                          ;
 ;     ENA SLD           ; 16                          ;
 ;     plain             ; 3                           ;
-; cycloneiii_lcell_comb ; 291                         ;
+; cycloneiii_lcell_comb ; 295                         ;
 ;     arith             ; 34                          ;
 ;         2 data inputs ; 22                          ;
 ;         3 data inputs ; 12                          ;
-;     normal            ; 257                         ;
+;     normal            ; 261                         ;
 ;         0 data inputs ; 3                           ;
 ;         1 data inputs ; 4                           ;
-;         2 data inputs ; 21                          ;
-;         3 data inputs ; 69                          ;
-;         4 data inputs ; 160                         ;
+;         2 data inputs ; 24                          ;
+;         3 data inputs ; 68                          ;
+;         4 data inputs ; 162                         ;
 ; cycloneiii_ram_block  ; 8                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 11.00                       ;
-; Average LUT depth     ; 4.99                        ;
+; Max LUT depth         ; 10.00                       ;
+; Average LUT depth     ; 4.82                        ;
 +-----------------------+-----------------------------+
 
 
@@ -731,7 +730,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Nov 30 16:32:31 2023
+    Info: Processing started: Fri Dec 01 16:16:04 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off m68hc11 -c m68hc11
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1241,15 +1240,15 @@ Info (286030): Timing-Driven Synthesis is running
 Info (17049): 8 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 465 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 469 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 4 input pins
     Info (21059): Implemented 126 output pins
-    Info (21061): Implemented 327 logic cells
+    Info (21061): Implemented 331 logic cells
     Info (21064): Implemented 8 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 309 warnings
-    Info: Peak virtual memory: 4835 megabytes
-    Info: Processing ended: Thu Nov 30 16:32:43 2023
-    Info: Elapsed time: 00:00:12
+    Info: Peak virtual memory: 4819 megabytes
+    Info: Processing ended: Fri Dec 01 16:16:17 2023
+    Info: Elapsed time: 00:00:13
     Info: Total CPU time (on all processors): 00:00:09
 
 

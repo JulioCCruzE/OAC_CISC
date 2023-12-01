@@ -1,5 +1,5 @@
 MIF/HEX Update report for m68hc11
-Fri Nov 24 12:48:01 2023
+Fri Dec 01 16:14:29 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -35,7 +35,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; MIF/HEX Update Summary                                        ;
 +-----------------------+---------------------------------------+
-; MIF/HEX Update Status ; Successful - Fri Nov 24 12:48:01 2023 ;
+; MIF/HEX Update Status ; Successful - Fri Dec 01 16:14:29 2023 ;
 ; Revision Name         ; m68hc11                               ;
 ; Top-level Entity Name ; m68hc11                               ;
 ; Family                ; Cyclone IV E                          ;
@@ -43,13 +43,13 @@ refer to the applicable agreement for further details.
 +-----------------------+---------------------------------------+
 
 
-+--------------------------------------------------------------------------------+
-; MIF/HEX Update Processed Files                                                 ;
-+--------------------------------------------------------------------------------+
-; File Name                                                                      ;
-+--------------------------------------------------------------------------------+
-; C:/Users/curt_/OneDrive/Documents/OAC/CISC_interrupciones/CISC/mem_content.mif ;
-+--------------------------------------------------------------------------------+
++-------------------------------------------------------------------+
+; MIF/HEX Update Processed Files                                    ;
++-------------------------------------------------------------------+
+; File Name                                                         ;
++-------------------------------------------------------------------+
+; C:/Users/curt_/OneDrive/Documents/GitHub/OAC_CISC/mem_content.mif ;
++-------------------------------------------------------------------+
 
 
 +-------------------------+
@@ -58,14 +58,15 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime MIF/HEX Update
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Nov 24 12:48:00 2023
+    Info: Processing started: Fri Dec 01 16:14:28 2023
 Info: Command: quartus_cdb m68hc11 -c m68hc11 --update_mif
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (39023): Can't find Memory Initialization File m68hc11.hex -- skipped updates for this file
 Info (39024): Processed the following Memory Initialization File(s)
-    Info (39025): Processed Memory Initialization File C:/Users/curt_/OneDrive/Documents/OAC/CISC_interrupciones/CISC/mem_content.mif File: C:/Users/curt_/OneDrive/Documents/OAC/CISC_interrupciones/CISC/mem_content.mif Line: 0
-Info: Quartus Prime MIF/HEX Update was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4707 megabytes
-    Info: Processing ended: Fri Nov 24 12:48:01 2023
+    Info (39025): Processed Memory Initialization File C:/Users/curt_/OneDrive/Documents/GitHub/OAC_CISC/mem_content.mif File: C:/Users/curt_/OneDrive/Documents/GitHub/OAC_CISC/mem_content.mif Line: 0
+Info: Quartus Prime MIF/HEX Update was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4706 megabytes
+    Info: Processing ended: Fri Dec 01 16:14:29 2023
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
