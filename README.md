@@ -11,7 +11,7 @@ Código para ejecutar el proyecto final de la materia
 
 ### Unchanged Memory
 
-  -- Con el proposito de no hacer push en el repositorio del código base de la memoria rom y la memoria ram voy a usar los soguientes comandos:
+  1.  Con el proposito de no hacer push en el repositorio del código base de la memoria rom y la memoria ram voy a usar los soguientes comandos:
 
   - Para que git ignore los cambios usamos:
     ```
