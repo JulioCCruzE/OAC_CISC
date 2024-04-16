@@ -25,10 +25,7 @@ Sitio de la materia: [BioRobotics UNAM](https://biorobotics.fi-p.unam.mx/organiz
       git update-index --no-assume-unchanged .\mem_content.mif
       ```
 ## Pendientes
- - [ ] Corregir Memory Update Initialization File.
- - [ ] #739
- - [ ] https://github.com/octo-org/octo-repo/issues/740
- - [ ] Add delight to the experience when all tasks are complete :+1:
+ - [ ] https://github.com/JulioCCruzE/OAC_CISC/issues/1
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
