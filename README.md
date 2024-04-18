@@ -21,7 +21,6 @@ FI UNAM
 
 <br/>
 
-
 Proyecto base del microprocesador **MC68HC11**.
 
 Este proyecto fue realizado con el proposito de que los alumnos puedan desarrollar e imlpementar los requerimientos correspondientes del proyecto final de la materia:
@@ -37,25 +36,28 @@ Este proyecto fue realizado con el proposito de que los alumnos puedan desarroll
   1. Con el proposito de **no hacer push** del código base de la memoria rom y la memoria ram voy a usar los soguientes comandos:
 
      - Para que `git` ignore los cambios usamos:
-      ```
+
+      ```Shell
       git update-index --assume-unchanged .\Secuenciador\memory.vhd
       git update-index --assume-unchanged .\mem_content.mif
       ```
 
      - Para que `git` vuelva a tomar en cuenta los cambios:
-      ```
+
+      ```Shell
       git update-index --no-assume-unchanged .\Secuenciador\memory.vhd
       git update-index --no-assume-unchanged .\mem_content.mif
       ```
+
 ## Pendientes
 
- - [ ] https://github.com/JulioCCruzE/OAC_CISC/issues/1
+- [ ] <https://github.com/JulioCCruzE/OAC_CISC/issues/1>
 
 ## Referencias útiles
 
- - https://tomverbeure.github.io/2021/04/25/Intel-FPGA-RAM-Bitstream-Patching.html
- - https://www.intel.com/programmable/technical-pdfs/qps-ugs.pdf
- - https://shields.io/badges/static-badge
+- <https://tomverbeure.github.io/2021/04/25/Intel-FPGA-RAM-Bitstream-Patching.html>
+- <https://www.intel.com/programmable/technical-pdfs/qps-ugs.pdf>
+- <https://shields.io/badges/static-badge>
 
 > [!NOTE]
 > Las badges o imagenes de la version de Quartus se autogeneran en la página de **shields**, no hay que descargarlas.
