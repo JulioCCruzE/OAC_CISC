@@ -12,6 +12,8 @@ Architecture CISC m68hc11
 
 Organización y Arquitectura de Computadoras
 
+FI UNAM
+
 
 <br/>
 
@@ -20,10 +22,14 @@ Organización y Arquitectura de Computadoras
 <br/>
 
 
-Código para ejecutar el proyecto final de la materia
+Proyecto base del microprocesador **MC68HC11**.
+
+Este proyecto fue realizado con el proposito de que los alumnos puedan desarrollar e imlpementar los requerimientos correspondientes del proyecto final de la materia:
+
 - Realizar microprogramación[^1].
 - Realizar macroprogramación[^2].
 
+> El proyecto fue realizado en Quartus con lenguaje VHDL.
 > Sitio de la materia: [BioRobotics UNAM](https://biorobotics.fi-p.unam.mx/organizacion-y-arquitectura-de-computadoras/).
 
 ## Unchanged Memory
@@ -52,7 +58,7 @@ Código para ejecutar el proyecto final de la materia
  - https://shields.io/badges/static-badge
 
 > [!NOTE]
-> Las badges se autogeneran, no hay que descargarlas.
+> Las badges o imagenes de la version de Quartus se autogeneran en la página de **shields**, no hay que descargarlas.
 
 [^1]: Editar la memoria ROM.
 [^2]: Editar la memoria RAM.
