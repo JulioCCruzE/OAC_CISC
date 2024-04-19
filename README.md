@@ -1,10 +1,15 @@
 # OAC_CISC
 
-<br/>
+<!-- <style>
+.red {color: red}
+.header {
+  text-align: center
+}
+</style> -->
 
-<div align="center">
+<!--<div align="center">
 
-Architecture CISC m68hc11
+ Architecture CISC m68hc11
   
 [![Quartus181Lite](https://img.shields.io/badge/Quartus-18.1--Lite-blue)](https://www.intel.com/content/www/us/en/software-kit/665990/intel-quartus-prime-lite-edition-design-software-version-18-1-for-windows.html)
 [![Quartus2111Lite](https://img.shields.io/badge/Quartus-21.1.1--Lite-blue)](https://www.intel.com/content/www/us/en/software-kit/736572/intel-quartus-prime-lite-edition-design-software-version-21-1-1-for-windows.html)
@@ -14,21 +19,32 @@ Organización y Arquitectura de Computadoras
 
 FI UNAM
 
+</div> -->
 
-<br/>
-
-</div>
-
-<br/>
-
-Proyecto base del microprocesador **MC68HC11**.
+Organización y Arquitectura de Computadoras, FI UNAM.
+  
+## Proyecto base del microprocesador **M68HC11**
 
 Este proyecto fue realizado con el proposito de que los alumnos puedan desarrollar e imlpementar los requerimientos correspondientes del proyecto final de la materia:
 
 - Realizar microprogramación[^1].
 - Realizar macroprogramación[^2].
 
-> El proyecto fue realizado en Quartus con lenguaje VHDL.
+Microprogramación | Macroprogramación
+:-------: | :-------:
+Memoria ROM | Memoria RAM
+Lenguaje Máquina | Ensamblador
+Cartas ASM / LTR | Pseudocódigo
+Worksheet | Program sheet
+
+### Architecture CISC m68hc11
+
+El proyecto fue realizado en Quartus con lenguaje VHDL
+  
+[![Quartus181Lite](https://img.shields.io/badge/Quartus-18.1--Lite-blue)](https://www.intel.com/content/www/us/en/software-kit/665990/intel-quartus-prime-lite-edition-design-software-version-18-1-for-windows.html)
+[![Quartus2111Lite](https://img.shields.io/badge/Quartus-21.1.1--Lite-blue)](https://www.intel.com/content/www/us/en/software-kit/736572/intel-quartus-prime-lite-edition-design-software-version-21-1-1-for-windows.html)
+[![Quartus2212Lite](https://img.shields.io/badge/Quartus-22.1.2--Lite-blue)](https://www.intel.com/content/www/us/en/software-kit/785086/intel-quartus-prime-lite-edition-design-software-version-22-1-2-for-windows.html)
+
 > Sitio de la materia: [BioRobotics UNAM](https://biorobotics.fi-p.unam.mx/organizacion-y-arquitectura-de-computadoras/).
 
 ## Unchanged Memory
@@ -37,14 +53,14 @@ Este proyecto fue realizado con el proposito de que los alumnos puedan desarroll
 
      - Para que `git` ignore los cambios usamos:
 
-      ```Shell
+      ```PowerShell
       git update-index --assume-unchanged .\Secuenciador\memory.vhd
       git update-index --assume-unchanged .\mem_content.mif
       ```
 
      - Para que `git` vuelva a tomar en cuenta los cambios:
 
-      ```Shell
+      ```PowerShell
       git update-index --no-assume-unchanged .\Secuenciador\memory.vhd
       git update-index --no-assume-unchanged .\mem_content.mif
       ```
