@@ -5,3 +5,5 @@
 /simulation
 *.vwf
 *.bak
+*.log
+.markdownlint.json
