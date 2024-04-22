@@ -44,6 +44,12 @@ El proyecto fue realizado en Quartus con lenguaje VHDL
 [![Quartus181Lite](https://img.shields.io/badge/Quartus-18.1--Lite-blue)](https://www.intel.com/content/www/us/en/software-kit/665990/intel-quartus-prime-lite-edition-design-software-version-18-1-for-windows.html)
 [![Quartus2111Lite](https://img.shields.io/badge/Quartus-21.1.1--Lite-blue)](https://www.intel.com/content/www/us/en/software-kit/736572/intel-quartus-prime-lite-edition-design-software-version-21-1-1-for-windows.html)
 [![Quartus2212Lite](https://img.shields.io/badge/Quartus-22.1.2--Lite-blue)](https://www.intel.com/content/www/us/en/software-kit/785086/intel-quartus-prime-lite-edition-design-software-version-22-1-2-for-windows.html)
+[![Quartus231Lite](https://img.shields.io/badge/Quartus-23.1--Lite-blue)](https://www.intel.com/content/www/us/en/software-kit/795188/intel-quartus-prime-lite-edition-design-software-version-23-1-for-windows.html)
+
+Tarjetas FPGA:
+
+- Altera Cyclone® IV **EP4CE22F17C6N** FPGA, DE0-NANO[^3].
+- MAX 10 **10M50DAF484C7G** Device, DE10-Lite[^4].
 
 > Sitio de la materia: [BioRobotics UNAM](https://biorobotics.fi-p.unam.mx/organizacion-y-arquitectura-de-computadoras/).
 
@@ -67,7 +73,7 @@ El proyecto fue realizado en Quartus con lenguaje VHDL
 
 ## Pendientes
 
-- [ ] <https://github.com/JulioCCruzE/OAC_CISC/issues/1>
+- [x] <https://github.com/JulioCCruzE/OAC_CISC/issues/1>
 
 ## Referencias útiles
 
@@ -80,3 +86,5 @@ El proyecto fue realizado en Quartus con lenguaje VHDL
 
 [^1]: Editar la memoria ROM.
 [^2]: Editar la memoria RAM.
+[^3]: [DE0-NANO User Manual](https://www.ti.com/lit/ug/tidu737/tidu737.pdf)
+[^4]: [DE10-Lite User Manual](https://www.terasic.com.tw/cgi-bin/page/archive_download.pl?Language=China&No=1021&FID=a13a2782811152b477e60203d34b1baa).
