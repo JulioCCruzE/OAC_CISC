@@ -80,6 +80,8 @@ Tarjetas FPGA:
 - <https://tomverbeure.github.io/2021/04/25/Intel-FPGA-RAM-Bitstream-Patching.html>
 - <https://www.intel.com/programmable/technical-pdfs/qps-ugs.pdf>
 - <https://shields.io/badges/static-badge>
+- <https://community.intel.com/t5/Programmable-Devices/MAX10-Select-Internal-Configuration-mode-with-ERAM/td-p/176279>
+- <http://dea.unsj.edu.ar/sda/10_Describing_Memory_External_Inteface.pdf>
 
 > [!NOTE]
 > Las badges o imagenes de la version de Quartus se autogeneran en la página de **shields**, no hay que descargarlas.
